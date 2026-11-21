@@ -1,6 +1,6 @@
-# nap-time: Blast Radius entry of team 67
+# GavinNicoBR
 
-This repository is an entry for the RWX Blast Radius track of the Builders Buildathon 2026.
+Gavin Vaughan's fork of nap-time, the team 67 entry for the RWX Blast Radius track of the Builders Buildathon 2026. Original repository: https://github.com/jason-scheffel/nap-time. Team 67 wrote the method and code described below.
 For each code change to sqlglot (commit `eb11aec`), the program prints the tests that fail on it and a split across workers.
 
 ## Method in one paragraph
