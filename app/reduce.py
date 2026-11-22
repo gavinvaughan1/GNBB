@@ -32,6 +32,7 @@ class State:
         self.keep_changed = None
         self.changed_only = False  # True: nothing but data files changed in this commit
         self.in_test = False
+        self.task_hook = None  # stages.py: called in place of a pool task (index, fn, args, kwargs)
 
     def reset(self, keep_files=None, keep_tasks=None):
         self.keep_files = keep_files
